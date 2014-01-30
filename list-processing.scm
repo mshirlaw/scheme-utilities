@@ -8,6 +8,7 @@
      
 ; recursively add all items in a list
 ; ignores items which are not numeric
+; reliant on natural? defined in math-utilities.scm
 (define recursive-add
   (lambda (ls)
     (if (null? ls) 
